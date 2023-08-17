@@ -1,0 +1,6 @@
+.env
+.venv/
+chatbots/
+dbs/
+.DS_Store
+uploaded_pdf_file.pdf

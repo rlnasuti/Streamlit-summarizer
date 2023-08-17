@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "chatbots"
+version = "0.1.0"
+description = ""
+authors = ["Robert Nasuti <rlnasuti@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.25.0"
+openai = "^0.27.8"
+watchdog = "^3.0.0"
+langchain = "^0.0.266"
+faiss-cpu = "^1.7.4"
+tiktoken = "^0.4.0"
+pypdf = "^3.15.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
